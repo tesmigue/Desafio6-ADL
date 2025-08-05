@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Directorio interno de la app -->
+    <files-path name="internal_files" path="." />
+
+    <!-- Cache de la app -->
+    <cache-path name="cache_files" path="." />
+
+    <!-- Directorio externo de la app -->
+    <external-files-path name="external_files" path="." />
+
+    <!-- Directorio de imágenes -->
+    <external-files-path name="images" path="Pictures/" />
+
+    <!-- Directorio de documentos -->
+    <external-files-path name="documents" path="Documents/" />
+
+    <!-- Storage externo para compartir -->
+    <external-path name="external_storage" path="." />
+</paths>

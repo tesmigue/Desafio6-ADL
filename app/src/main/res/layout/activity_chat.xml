@@ -1,0 +1,65 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#F5F5F5">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvMensajes"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:clipToPadding="false" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:elevation="4dp"
+        android:layout_marginTop="4dp">
+
+        <EditText
+            android:id="@+id/etMensaje"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="Escribe un mensaje..."
+            android:padding="12dp"
+            android:background="@android:drawable/edit_text"
+            android:textColor="#212121"
+            android:textColorHint="#9E9E9E"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="4dp"/>
+
+        <Button
+            android:id="@+id/btnEnviar"
+            android:text="Enviar"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="4dp" />
+
+        <Button
+            android:id="@+id/btnImagen"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:text="📷"
+            android:backgroundTint="#FF7043"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="4dp" />
+
+        <Button
+            android:id="@+id/btnAdjuntar"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:text="📎"
+            android:backgroundTint="#607D8B"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</LinearLayout>
